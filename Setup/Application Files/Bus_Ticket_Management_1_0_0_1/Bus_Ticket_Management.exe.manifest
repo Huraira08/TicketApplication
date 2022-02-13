@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Bus_Ticket_Management.exe" version="1.0.0.1" publicKeyToken="75c31453baa5af96" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Bus_Ticket_Management" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Bus_Ticket_Management.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Bus_Ticket_Management.exe" size="93216">
+      <assemblyIdentity name="Bus_Ticket_Management" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>9kTtCRN8QoauEs9QoFLaqVWcM5xtDISR6L3bk9cZlY0=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Bus_Ticket_Management.exe.config" size="184">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>FqWy0dfMmRS85zkU1NlW07p6LsNOPUHodvLiZcFdgJY=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-4SE3ITK\Muhammad Huraira" issuerKeyHash="5adb7fcfb07599f72291fc1257546b1e9b80d4e0" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>4x9FyS+6YH+cjb92d1pYbRDDUM42eVsxzA0OPD9QugE=</DigestValue></Reference></SignedInfo><SignatureValue>y8M1clRC27mbH6FY3tnBF8kPItCLxkzdVRtEe8utV5BC4w9BGuFbMrVDeCW4UJ4nRrkP0rSVoFdFESUYit19KCI2hF+yx+87ocAEbN8CB5gyXGf4lqdc0XJvfj++BAQ1Tcn9vgbLuHCODcEO45cx+eaqoYIXRFpEoAQAZCvORio=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>2kL5u6E4AiW6c8gZmjK7Jwk8sTUE2LNRc1O4CdVUI5qvxD3nwBwmkQBpMjXWY8vdojFwxy75t2KPqKTP3EbtxnHR+DjalbPVMTp57ramRuBe4y4GL0dYHsBO+1jUZQDScgh25oRvZm4obkm1QJ8ELQhsiJ3k749D6dvPg3MRvAE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="01ba503f3c0e0dcc315b7936ce50c3106d585a7776bf8d9c7f60ba2fc9451fe3" Description="" Url=""><as:assemblyIdentity name="Bus_Ticket_Management.exe" version="1.0.0.1" publicKeyToken="75c31453baa5af96" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-4SE3ITK\Muhammad Huraira</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>3d7QrVwthf4oVOgsuZI4xv0WHWwmcQtP/uVaXEx07gU=</DigestValue></Reference></SignedInfo><SignatureValue>irQNf3RO6gAsTMLhBMAxo3T96As386rooL/fDGuwTST9fAsRqLwDz7oVEzAw7hL2q+SOXUwHvXE3FgUJYdzSfUv/kgQ0Hzo0fpWw6w7nb02BhW2XsguHJN11xAWIBHsxHiZ3yHS4aRn54gT7dbH7bdDfvSumo5Be2VAuCsI66eg=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>2kL5u6E4AiW6c8gZmjK7Jwk8sTUE2LNRc1O4CdVUI5qvxD3nwBwmkQBpMjXWY8vdojFwxy75t2KPqKTP3EbtxnHR+DjalbPVMTp57ramRuBe4y4GL0dYHsBO+1jUZQDScgh25oRvZm4obkm1QJ8ELQhsiJ3k749D6dvPg3MRvAE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIICGTCCAYKgAwIBAgIQLEKZhVF1aaJOIAAMRO5eWDANBgkqhkiG9w0BAQsFADBLMUkwRwYDVQQDHkAARABFAFMASwBUAE8AUAAtADQAUwBFADMASQBUAEsAXABNAHUAaABhAG0AbQBhAGQAIABIAHUAcgBhAGkAcgBhMB4XDTIyMDIwMTA1MjMyM1oXDTIzMDIwMTExMjMyM1owSzFJMEcGA1UEAx5AAEQARQBTAEsAVABPAFAALQA0AFMARQAzAEkAVABLAFwATQB1AGgAYQBtAG0AYQBkACAASAB1AHIAYQBpAHIAYTCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEA2kL5u6E4AiW6c8gZmjK7Jwk8sTUE2LNRc1O4CdVUI5qvxD3nwBwmkQBpMjXWY8vdojFwxy75t2KPqKTP3EbtxnHR+DjalbPVMTp57ramRuBe4y4GL0dYHsBO+1jUZQDScgh25oRvZm4obkm1QJ8ELQhsiJ3k749D6dvPg3MRvAECAwEAATANBgkqhkiG9w0BAQsFAAOBgQAQ1+JkulaAuXL0uZ1P9qPE5ig9RG0Z9Q6doZfL9xQ//7kTtv9o0e9JiVxC6wm92CNjzOV23wP1zS6oRla52XA/0jQq3b6DbuvENIiHbZdWQ2pDO+QjQ4osPnxD+ev77eol6G8eGtktlHjMav5rg2Fm4Pu5ztk+3ZcZRS5aBGzCig==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
